@@ -14,6 +14,13 @@
 		BD20B2611E93485B004D80BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD20B25F1E93485B004D80BA /* LaunchScreen.storyboard */; };
 		BD20B2691E9348AA004D80BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD20B2681E9348AA004D80BA /* Images.xcassets */; };
 		BD20B28E1E934C07004D80BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD20B2851E934C07004D80BA /* AppDelegate.m */; };
+		BD20B2911E934E67004D80BA /* TLYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD20B2901E934E67004D80BA /* TLYTabBarController.m */; };
+		BD20B2941E934F70004D80BA /* TLYEssenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD20B2931E934F70004D80BA /* TLYEssenceController.m */; };
+		BD20B2971E934FA0004D80BA /* TLYNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD20B2961E934FA0004D80BA /* TLYNewViewController.m */; };
+		BD20B29A1E934FBE004D80BA /* TLYPublishController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD20B2991E934FBE004D80BA /* TLYPublishController.m */; };
+		BD20B29D1E934FE1004D80BA /* TLYFriendTrendController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD20B29C1E934FE1004D80BA /* TLYFriendTrendController.m */; };
+		BD20B2A01E935025004D80BA /* TLYMeTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD20B29F1E935025004D80BA /* TLYMeTableController.m */; };
+		BD20B2A41E93530B004D80BA /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = BD20B2A31E93530B004D80BA /* UIImage+Image.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +34,20 @@
 		BD20B2681E9348AA004D80BA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BD20B2841E934C07004D80BA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BD20B2851E934C07004D80BA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD20B28F1E934E67004D80BA /* TLYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLYTabBarController.h; sourceTree = "<group>"; };
+		BD20B2901E934E67004D80BA /* TLYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLYTabBarController.m; sourceTree = "<group>"; };
+		BD20B2921E934F70004D80BA /* TLYEssenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLYEssenceController.h; sourceTree = "<group>"; };
+		BD20B2931E934F70004D80BA /* TLYEssenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLYEssenceController.m; sourceTree = "<group>"; };
+		BD20B2951E934FA0004D80BA /* TLYNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLYNewViewController.h; sourceTree = "<group>"; };
+		BD20B2961E934FA0004D80BA /* TLYNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLYNewViewController.m; sourceTree = "<group>"; };
+		BD20B2981E934FBE004D80BA /* TLYPublishController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLYPublishController.h; sourceTree = "<group>"; };
+		BD20B2991E934FBE004D80BA /* TLYPublishController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLYPublishController.m; sourceTree = "<group>"; };
+		BD20B29B1E934FE1004D80BA /* TLYFriendTrendController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLYFriendTrendController.h; sourceTree = "<group>"; };
+		BD20B29C1E934FE1004D80BA /* TLYFriendTrendController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLYFriendTrendController.m; sourceTree = "<group>"; };
+		BD20B29E1E935025004D80BA /* TLYMeTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLYMeTableController.h; sourceTree = "<group>"; };
+		BD20B29F1E935025004D80BA /* TLYMeTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLYMeTableController.m; sourceTree = "<group>"; };
+		BD20B2A21E93530B004D80BA /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		BD20B2A31E93530B004D80BA /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +160,8 @@
 		BD20B2701E934C07004D80BA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BD20B2921E934F70004D80BA /* TLYEssenceController.h */,
+				BD20B2931E934F70004D80BA /* TLYEssenceController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -170,6 +193,8 @@
 		BD20B2741E934C07004D80BA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BD20B29B1E934FE1004D80BA /* TLYFriendTrendController.h */,
+				BD20B29C1E934FE1004D80BA /* TLYFriendTrendController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -201,6 +226,8 @@
 		BD20B2781E934C07004D80BA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BD20B28F1E934E67004D80BA /* TLYTabBarController.h */,
+				BD20B2901E934E67004D80BA /* TLYTabBarController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -232,6 +259,8 @@
 		BD20B27C1E934C07004D80BA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BD20B29E1E935025004D80BA /* TLYMeTableController.h */,
+				BD20B29F1E935025004D80BA /* TLYMeTableController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -263,6 +292,8 @@
 		BD20B2801E934C07004D80BA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BD20B2951E934FA0004D80BA /* TLYNewViewController.h */,
+				BD20B2961E934FA0004D80BA /* TLYNewViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -284,6 +315,7 @@
 		BD20B2831E934C07004D80BA /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				BD20B2A11E9352DE004D80BA /* Category */,
 				BD20B2841E934C07004D80BA /* AppDelegate.h */,
 				BD20B2851E934C07004D80BA /* AppDelegate.m */,
 			);
@@ -303,6 +335,8 @@
 		BD20B2871E934C07004D80BA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BD20B2981E934FBE004D80BA /* TLYPublishController.h */,
+				BD20B2991E934FBE004D80BA /* TLYPublishController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -350,6 +384,15 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		BD20B2A11E9352DE004D80BA /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				BD20B2A21E93530B004D80BA /* UIImage+Image.h */,
+				BD20B2A31E93530B004D80BA /* UIImage+Image.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -424,9 +467,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD20B2A01E935025004D80BA /* TLYMeTableController.m in Sources */,
+				BD20B2A41E93530B004D80BA /* UIImage+Image.m in Sources */,
 				BD20B25C1E93485B004D80BA /* _____.xcdatamodeld in Sources */,
+				BD20B2971E934FA0004D80BA /* TLYNewViewController.m in Sources */,
+				BD20B2911E934E67004D80BA /* TLYTabBarController.m in Sources */,
 				BD20B2501E93485B004D80BA /* main.m in Sources */,
+				BD20B2941E934F70004D80BA /* TLYEssenceController.m in Sources */,
 				BD20B28E1E934C07004D80BA /* AppDelegate.m in Sources */,
+				BD20B29A1E934FBE004D80BA /* TLYPublishController.m in Sources */,
+				BD20B29D1E934FE1004D80BA /* TLYFriendTrendController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
