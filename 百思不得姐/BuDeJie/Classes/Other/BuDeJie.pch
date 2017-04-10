@@ -1,0 +1,25 @@
+//
+//  BuDeJie.pch
+//  百思不得姐
+//
+//  Created by jack_tang on 17/4/7.
+//  Copyright © 2017年 jack_tang. All rights reserved.
+//
+
+#import "UIView+Frame.h"
+#import "UIBarButtonItem+Item.h"
+
+#define TLYFunc NSLog(@"%s",__func__)
+
+#ifdef DEBUG
+
+#define TLYLog(...) NSLog(__VA_ARGS__)
+
+#else
+
+#define TLYLog(...)
+
+
+#endif
+
+
