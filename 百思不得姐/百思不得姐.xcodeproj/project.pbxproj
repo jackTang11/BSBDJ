@@ -21,10 +21,15 @@
 		BD20B29D1E934FE1004D80BA /* TLYFriendTrendController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD20B29C1E934FE1004D80BA /* TLYFriendTrendController.m */; };
 		BD20B2A01E935025004D80BA /* TLYMeTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD20B29F1E935025004D80BA /* TLYMeTableController.m */; };
 		BD20B2A41E93530B004D80BA /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = BD20B2A31E93530B004D80BA /* UIImage+Image.m */; };
+		BD4FEB111E973B4300BA6286 /* TLYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4FEB101E973B4300BA6286 /* TLYTabBar.m */; };
+		BD4FEB141E97429500BA6286 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4FEB131E97429500BA6286 /* UIView+Frame.m */; };
+		BD4FEB181E9B21BB00BA6286 /* TLYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4FEB171E9B21BB00BA6286 /* TLYNavigationController.m */; };
+		BD4FEB1B1E9B259000BA6286 /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4FEB1A1E9B259000BA6286 /* UIBarButtonItem+Item.m */; };
+		BD4FEB1E1E9B380800BA6286 /* TLYSettingTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4FEB1D1E9B380800BA6286 /* TLYSettingTableController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BD20B24B1E93485B004D80BA /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD20B24B1E93485B004D80BA /* BuDeJie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuDeJie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD20B24F1E93485B004D80BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BD20B2581E93485B004D80BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD20B25B1E93485B004D80BA /* _____.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "_____.xcdatamodel"; sourceTree = "<group>"; };
@@ -48,6 +53,17 @@
 		BD20B29F1E935025004D80BA /* TLYMeTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLYMeTableController.m; sourceTree = "<group>"; };
 		BD20B2A21E93530B004D80BA /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
 		BD20B2A31E93530B004D80BA /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		BD4FEB0F1E973B4300BA6286 /* TLYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLYTabBar.h; sourceTree = "<group>"; };
+		BD4FEB101E973B4300BA6286 /* TLYTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLYTabBar.m; sourceTree = "<group>"; };
+		BD4FEB121E97429500BA6286 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		BD4FEB131E97429500BA6286 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		BD4FEB151E97488E00BA6286 /* BuDeJie.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuDeJie.pch; sourceTree = "<group>"; };
+		BD4FEB161E9B21BB00BA6286 /* TLYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLYNavigationController.h; sourceTree = "<group>"; };
+		BD4FEB171E9B21BB00BA6286 /* TLYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLYNavigationController.m; sourceTree = "<group>"; };
+		BD4FEB191E9B259000BA6286 /* UIBarButtonItem+Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Item.h"; sourceTree = "<group>"; };
+		BD4FEB1A1E9B259000BA6286 /* UIBarButtonItem+Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Item.m"; sourceTree = "<group>"; };
+		BD4FEB1C1E9B380800BA6286 /* TLYSettingTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLYSettingTableController.h; sourceTree = "<group>"; };
+		BD4FEB1D1E9B380800BA6286 /* TLYSettingTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLYSettingTableController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +80,7 @@
 		BD20B2421E93485B004D80BA = {
 			isa = PBXGroup;
 			children = (
-				BD20B24D1E93485B004D80BA /* 百思不得姐 */,
+				BD20B24D1E93485B004D80BA /* BuDeJie */,
 				BD20B24C1E93485B004D80BA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,12 +88,12 @@
 		BD20B24C1E93485B004D80BA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BD20B24B1E93485B004D80BA /* 百思不得姐.app */,
+				BD20B24B1E93485B004D80BA /* BuDeJie.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BD20B24D1E93485B004D80BA /* 百思不得姐 */ = {
+		BD20B24D1E93485B004D80BA /* BuDeJie */ = {
 			isa = PBXGroup;
 			children = (
 				BD20B26A1E934C07004D80BA /* Classes */,
@@ -89,7 +105,7 @@
 				BD20B2681E9348AA004D80BA /* Images.xcassets */,
 				BD20B24E1E93485B004D80BA /* Supporting Files */,
 			);
-			path = "百思不得姐";
+			path = BuDeJie;
 			sourceTree = "<group>";
 		};
 		BD20B24E1E93485B004D80BA /* Supporting Files */ = {
@@ -242,6 +258,10 @@
 		BD20B27A1E934C07004D80BA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BD4FEB0F1E973B4300BA6286 /* TLYTabBar.h */,
+				BD4FEB101E973B4300BA6286 /* TLYTabBar.m */,
+				BD4FEB161E9B21BB00BA6286 /* TLYNavigationController.h */,
+				BD4FEB171E9B21BB00BA6286 /* TLYNavigationController.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -318,6 +338,7 @@
 				BD20B2A11E9352DE004D80BA /* Category */,
 				BD20B2841E934C07004D80BA /* AppDelegate.h */,
 				BD20B2851E934C07004D80BA /* AppDelegate.m */,
+				BD4FEB151E97488E00BA6286 /* BuDeJie.pch */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -368,6 +389,8 @@
 		BD20B28B1E934C07004D80BA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BD4FEB1C1E9B380800BA6286 /* TLYSettingTableController.h */,
+				BD4FEB1D1E9B380800BA6286 /* TLYSettingTableController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -391,6 +414,10 @@
 			children = (
 				BD20B2A21E93530B004D80BA /* UIImage+Image.h */,
 				BD20B2A31E93530B004D80BA /* UIImage+Image.m */,
+				BD4FEB121E97429500BA6286 /* UIView+Frame.h */,
+				BD4FEB131E97429500BA6286 /* UIView+Frame.m */,
+				BD4FEB191E9B259000BA6286 /* UIBarButtonItem+Item.h */,
+				BD4FEB1A1E9B259000BA6286 /* UIBarButtonItem+Item.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -398,9 +425,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BD20B24A1E93485B004D80BA /* 百思不得姐 */ = {
+		BD20B24A1E93485B004D80BA /* BuDeJie */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BD20B2651E93485B004D80BA /* Build configuration list for PBXNativeTarget "百思不得姐" */;
+			buildConfigurationList = BD20B2651E93485B004D80BA /* Build configuration list for PBXNativeTarget "BuDeJie" */;
 			buildPhases = (
 				BD20B2471E93485B004D80BA /* Sources */,
 				BD20B2481E93485B004D80BA /* Frameworks */,
@@ -410,9 +437,9 @@
 			);
 			dependencies = (
 			);
-			name = "百思不得姐";
-			productName = "百思不得姐";
-			productReference = BD20B24B1E93485B004D80BA /* 百思不得姐.app */;
+			name = BuDeJie;
+			productName = BuDeJie;
+			productReference = BD20B24B1E93485B004D80BA /* BuDeJie.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -421,6 +448,7 @@
 		BD20B2431E93485B004D80BA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TLY;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = jack_tang;
 				TargetAttributes = {
@@ -443,7 +471,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BD20B24A1E93485B004D80BA /* 百思不得姐 */,
+				BD20B24A1E93485B004D80BA /* BuDeJie */,
 			);
 		};
 /* End PBXProject section */
@@ -467,11 +495,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD4FEB141E97429500BA6286 /* UIView+Frame.m in Sources */,
 				BD20B2A01E935025004D80BA /* TLYMeTableController.m in Sources */,
+				BD4FEB111E973B4300BA6286 /* TLYTabBar.m in Sources */,
 				BD20B2A41E93530B004D80BA /* UIImage+Image.m in Sources */,
 				BD20B25C1E93485B004D80BA /* _____.xcdatamodeld in Sources */,
+				BD4FEB1E1E9B380800BA6286 /* TLYSettingTableController.m in Sources */,
+				BD4FEB1B1E9B259000BA6286 /* UIBarButtonItem+Item.m in Sources */,
 				BD20B2971E934FA0004D80BA /* TLYNewViewController.m in Sources */,
 				BD20B2911E934E67004D80BA /* TLYTabBarController.m in Sources */,
+				BD4FEB181E9B21BB00BA6286 /* TLYNavigationController.m in Sources */,
 				BD20B2501E93485B004D80BA /* main.m in Sources */,
 				BD20B2941E934F70004D80BA /* TLYEssenceController.m in Sources */,
 				BD20B28E1E934C07004D80BA /* AppDelegate.m in Sources */,
@@ -532,6 +565,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = BuDeJie/Classes/Other/BuDeJie.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -577,6 +611,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = BuDeJie/Classes/Other/BuDeJie.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -595,7 +630,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = "百思不得姐/Info.plist";
+				INFOPLIST_FILE = BuDeJie/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.-----";
@@ -608,7 +643,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = "百思不得姐/Info.plist";
+				INFOPLIST_FILE = BuDeJie/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.-----";
@@ -628,7 +663,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BD20B2651E93485B004D80BA /* Build configuration list for PBXNativeTarget "百思不得姐" */ = {
+		BD20B2651E93485B004D80BA /* Build configuration list for PBXNativeTarget "BuDeJie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BD20B2661E93485B004D80BA /* Debug */,
