@@ -10,6 +10,14 @@
 #import "UIBarButtonItem+Item.h"
 
 #define TLYFunc NSLog(@"%s",__func__)
+#define TLYScreenW [UIScreen mainScreen].bounds.size.width
+#define TLYScreenH [UIScreen mainScreen].bounds.size.height
+#define inphone6p (TLYScreenH == 736)
+#define inphone6 (TLYScreenH == 667)
+#define inphone5 (TLYScreenH == 568)
+#define inphone4 (TLYScreenH == 480)
+
+
 
 #ifdef DEBUG
 

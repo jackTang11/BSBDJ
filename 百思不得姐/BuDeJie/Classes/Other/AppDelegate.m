@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "TLYTabBarController.h"
+#import "TLYAdViewController.h"
 
 @interface AppDelegate ()
 
@@ -22,9 +23,13 @@
    
     
     self.window = [[UIWindow alloc]initWithFrame: [UIScreen mainScreen].bounds];
-    TLYTabBarController *tabBarCon = [[TLYTabBarController alloc]init];
+//    TLYTabBarController *tabBarCon = [[TLYTabBarController alloc]init];
     
-    self.window.rootViewController = tabBarCon;
+    
+    TLYAdViewController *ad = [[TLYAdViewController alloc]init];
+    
+    
+    self.window.rootViewController = ad;
     
     [self.window makeKeyAndVisible];
     
