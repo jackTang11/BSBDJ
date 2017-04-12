@@ -58,8 +58,9 @@
 
 -(void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated{
     if( self.childViewControllers.count>0){
+        viewController.hidesBottomBarWhenPushed  = YES;
         viewController.navigationItem.leftBarButtonItem = [UIBarButtonItem backWithImage: [UIImage imageNamed:@"navigationButtonReturn"] hightImage: [UIImage imageNamed:@"navigationButtonReturnClick"] target:self action:@selector(backAction) title:@"返回"];
-         NSLog(@"%@",self.interactivePopGestureRecognizer);
+        
     }
      [super pushViewController:viewController animated:animated];
    

@@ -37,6 +37,18 @@
 		BD4FEB361E9B8EA800BA6286 /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BD4FEB2F1E9B8EA800BA6286 /* LaunchImage.png */; };
 		BD4FEB371E9B8EA800BA6286 /* LaunchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD4FEB301E9B8EA800BA6286 /* LaunchImage@2x.png */; };
 		BD4FEB3A1E9C6B1A00BA6286 /* TLYAdItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4FEB391E9C6B1A00BA6286 /* TLYAdItem.m */; };
+		BD4FEB3D1E9CD7C900BA6286 /* TLYSubTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4FEB3C1E9CD7C900BA6286 /* TLYSubTagViewController.m */; };
+		BD4FEB401E9CD9E200BA6286 /* TLYSubTagItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4FEB3F1E9CD9E200BA6286 /* TLYSubTagItem.m */; };
+		BD4FEB441E9CDB5C00BA6286 /* TLYSubTagViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4FEB421E9CDB5C00BA6286 /* TLYSubTagViewCell.m */; };
+		BD4FEB451E9CDB5C00BA6286 /* TLYSubTagViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD4FEB431E9CDB5C00BA6286 /* TLYSubTagViewCell.xib */; };
+		BD4FEB471E9DC8A600BA6286 /* TLYFriendTrendController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD4FEB461E9DC8A600BA6286 /* TLYFriendTrendController.xib */; };
+		BD4FEB9A1E9DCC5C00BA6286 /* TLYLoginRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4FEB981E9DCC5C00BA6286 /* TLYLoginRegisterViewController.m */; };
+		BD4FEB9B1E9DCC5C00BA6286 /* TLYLoginRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD4FEB991E9DCC5C00BA6286 /* TLYLoginRegisterViewController.xib */; };
+		BD4FEB9E1E9DD94A00BA6286 /* TLYFastLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4FEB9D1E9DD94A00BA6286 /* TLYFastLoginView.m */; };
+		BD4FEBA01E9DD97B00BA6286 /* TLYFastLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD4FEB9F1E9DD97B00BA6286 /* TLYFastLoginView.xib */; };
+		BD4FEBA31E9DD9FC00BA6286 /* TLYLoginRegistView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4FEBA21E9DD9FC00BA6286 /* TLYLoginRegistView.m */; };
+		BD4FEBA51E9DDA0900BA6286 /* TLYLoginRegistView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD4FEBA41E9DDA0900BA6286 /* TLYLoginRegistView.xib */; };
+		BD4FEBA81E9E267100BA6286 /* TLYFastBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4FEBA71E9E267100BA6286 /* TLYFastBtn.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,6 +101,25 @@
 		BD4FEB301E9B8EA800BA6286 /* LaunchImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage@2x.png"; sourceTree = "<group>"; };
 		BD4FEB381E9C6B1A00BA6286 /* TLYAdItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLYAdItem.h; sourceTree = "<group>"; };
 		BD4FEB391E9C6B1A00BA6286 /* TLYAdItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLYAdItem.m; sourceTree = "<group>"; };
+		BD4FEB3B1E9CD7C900BA6286 /* TLYSubTagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLYSubTagViewController.h; sourceTree = "<group>"; };
+		BD4FEB3C1E9CD7C900BA6286 /* TLYSubTagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLYSubTagViewController.m; sourceTree = "<group>"; };
+		BD4FEB3E1E9CD9E200BA6286 /* TLYSubTagItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLYSubTagItem.h; sourceTree = "<group>"; };
+		BD4FEB3F1E9CD9E200BA6286 /* TLYSubTagItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLYSubTagItem.m; sourceTree = "<group>"; };
+		BD4FEB411E9CDB5C00BA6286 /* TLYSubTagViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLYSubTagViewCell.h; sourceTree = "<group>"; };
+		BD4FEB421E9CDB5C00BA6286 /* TLYSubTagViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLYSubTagViewCell.m; sourceTree = "<group>"; };
+		BD4FEB431E9CDB5C00BA6286 /* TLYSubTagViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TLYSubTagViewCell.xib; sourceTree = "<group>"; };
+		BD4FEB461E9DC8A600BA6286 /* TLYFriendTrendController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TLYFriendTrendController.xib; sourceTree = "<group>"; };
+		BD4FEB971E9DCC5C00BA6286 /* TLYLoginRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLYLoginRegisterViewController.h; sourceTree = "<group>"; };
+		BD4FEB981E9DCC5C00BA6286 /* TLYLoginRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLYLoginRegisterViewController.m; sourceTree = "<group>"; };
+		BD4FEB991E9DCC5C00BA6286 /* TLYLoginRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TLYLoginRegisterViewController.xib; sourceTree = "<group>"; };
+		BD4FEB9C1E9DD94A00BA6286 /* TLYFastLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLYFastLoginView.h; sourceTree = "<group>"; };
+		BD4FEB9D1E9DD94A00BA6286 /* TLYFastLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLYFastLoginView.m; sourceTree = "<group>"; };
+		BD4FEB9F1E9DD97B00BA6286 /* TLYFastLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TLYFastLoginView.xib; sourceTree = "<group>"; };
+		BD4FEBA11E9DD9FC00BA6286 /* TLYLoginRegistView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLYLoginRegistView.h; sourceTree = "<group>"; };
+		BD4FEBA21E9DD9FC00BA6286 /* TLYLoginRegistView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLYLoginRegistView.m; sourceTree = "<group>"; };
+		BD4FEBA41E9DDA0900BA6286 /* TLYLoginRegistView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TLYLoginRegistView.xib; sourceTree = "<group>"; };
+		BD4FEBA61E9E267100BA6286 /* TLYFastBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLYFastBtn.h; sourceTree = "<group>"; };
+		BD4FEBA71E9E267100BA6286 /* TLYFastBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLYFastBtn.m; sourceTree = "<group>"; };
 		EBC14DF9A7B48C1D5F4423BD /* Pods_BuDeJie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuDeJie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -263,6 +294,10 @@
 			children = (
 				BD20B29B1E934FE1004D80BA /* TLYFriendTrendController.h */,
 				BD20B29C1E934FE1004D80BA /* TLYFriendTrendController.m */,
+				BD4FEB461E9DC8A600BA6286 /* TLYFriendTrendController.xib */,
+				BD4FEB971E9DCC5C00BA6286 /* TLYLoginRegisterViewController.h */,
+				BD4FEB981E9DCC5C00BA6286 /* TLYLoginRegisterViewController.m */,
+				BD4FEB991E9DCC5C00BA6286 /* TLYLoginRegisterViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -277,6 +312,14 @@
 		BD20B2761E934C07004D80BA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BD4FEB9C1E9DD94A00BA6286 /* TLYFastLoginView.h */,
+				BD4FEB9D1E9DD94A00BA6286 /* TLYFastLoginView.m */,
+				BD4FEB9F1E9DD97B00BA6286 /* TLYFastLoginView.xib */,
+				BD4FEBA11E9DD9FC00BA6286 /* TLYLoginRegistView.h */,
+				BD4FEBA21E9DD9FC00BA6286 /* TLYLoginRegistView.m */,
+				BD4FEBA41E9DDA0900BA6286 /* TLYLoginRegistView.xib */,
+				BD4FEBA61E9E267100BA6286 /* TLYFastBtn.h */,
+				BD4FEBA71E9E267100BA6286 /* TLYFastBtn.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -366,6 +409,8 @@
 			children = (
 				BD20B2951E934FA0004D80BA /* TLYNewViewController.h */,
 				BD20B2961E934FA0004D80BA /* TLYNewViewController.m */,
+				BD4FEB3B1E9CD7C900BA6286 /* TLYSubTagViewController.h */,
+				BD4FEB3C1E9CD7C900BA6286 /* TLYSubTagViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -373,6 +418,8 @@
 		BD20B2811E934C07004D80BA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BD4FEB3E1E9CD9E200BA6286 /* TLYSubTagItem.h */,
+				BD4FEB3F1E9CD9E200BA6286 /* TLYSubTagItem.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -380,6 +427,9 @@
 		BD20B2821E934C07004D80BA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BD4FEB411E9CDB5C00BA6286 /* TLYSubTagViewCell.h */,
+				BD4FEB421E9CDB5C00BA6286 /* TLYSubTagViewCell.m */,
+				BD4FEB431E9CDB5C00BA6286 /* TLYSubTagViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -550,12 +600,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD4FEBA01E9DD97B00BA6286 /* TLYFastLoginView.xib in Resources */,
+				BD4FEBA51E9DDA0900BA6286 /* TLYLoginRegistView.xib in Resources */,
+				BD4FEB9B1E9DCC5C00BA6286 /* TLYLoginRegisterViewController.xib in Resources */,
 				BD4FEB321E9B8EA800BA6286 /* LaunchImage-700-568h@2x.png in Resources */,
+				BD4FEB471E9DC8A600BA6286 /* TLYFriendTrendController.xib in Resources */,
 				BD4FEB371E9B8EA800BA6286 /* LaunchImage@2x.png in Resources */,
 				BD20B2611E93485B004D80BA /* LaunchScreen.storyboard in Resources */,
 				BD4FEB281E9B8E4600BA6286 /* TLYAdViewController.xib in Resources */,
 				BD20B2691E9348AA004D80BA /* Images.xcassets in Resources */,
 				BD4FEB341E9B8EA800BA6286 /* LaunchImage-800-667h@2x.png in Resources */,
+				BD4FEB451E9CDB5C00BA6286 /* TLYSubTagViewCell.xib in Resources */,
 				BD20B25E1E93485B004D80BA /* Assets.xcassets in Resources */,
 				BD4FEB331E9B8EA800BA6286 /* LaunchImage-700@2x.png in Resources */,
 				BD4FEB311E9B8EA800BA6286 /* LaunchImage-568h@2x.png in Resources */,
@@ -624,16 +679,23 @@
 				BD20B2A01E935025004D80BA /* TLYMeTableController.m in Sources */,
 				BD4FEB111E973B4300BA6286 /* TLYTabBar.m in Sources */,
 				BD4FEB3A1E9C6B1A00BA6286 /* TLYAdItem.m in Sources */,
+				BD4FEB9E1E9DD94A00BA6286 /* TLYFastLoginView.m in Sources */,
+				BD4FEB9A1E9DCC5C00BA6286 /* TLYLoginRegisterViewController.m in Sources */,
 				BD20B2A41E93530B004D80BA /* UIImage+Image.m in Sources */,
 				BD20B25C1E93485B004D80BA /* _____.xcdatamodeld in Sources */,
 				BD4FEB1E1E9B380800BA6286 /* TLYSettingTableController.m in Sources */,
 				BD4FEB1B1E9B259000BA6286 /* UIBarButtonItem+Item.m in Sources */,
+				BD4FEBA81E9E267100BA6286 /* TLYFastBtn.m in Sources */,
+				BD4FEB441E9CDB5C00BA6286 /* TLYSubTagViewCell.m in Sources */,
+				BD4FEB401E9CD9E200BA6286 /* TLYSubTagItem.m in Sources */,
 				BD20B2971E934FA0004D80BA /* TLYNewViewController.m in Sources */,
 				BD20B2911E934E67004D80BA /* TLYTabBarController.m in Sources */,
 				BD4FEB181E9B21BB00BA6286 /* TLYNavigationController.m in Sources */,
 				BD20B2501E93485B004D80BA /* main.m in Sources */,
+				BD4FEBA31E9DD9FC00BA6286 /* TLYLoginRegistView.m in Sources */,
 				BD20B2941E934F70004D80BA /* TLYEssenceController.m in Sources */,
 				BD20B28E1E934C07004D80BA /* AppDelegate.m in Sources */,
+				BD4FEB3D1E9CD7C900BA6286 /* TLYSubTagViewController.m in Sources */,
 				BD4FEB261E9B8E3600BA6286 /* TLYAdViewController.m in Sources */,
 				BD20B29A1E934FBE004D80BA /* TLYPublishController.m in Sources */,
 				BD20B29D1E934FE1004D80BA /* TLYFriendTrendController.m in Sources */,

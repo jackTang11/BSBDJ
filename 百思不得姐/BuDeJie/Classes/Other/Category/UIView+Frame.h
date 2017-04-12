@@ -14,4 +14,6 @@
 @property CGFloat tly_height;
 @property CGFloat tly_x;
 @property CGFloat tly_y;
+@property CGFloat center_x;
+@property CGFloat center_y;
 @end

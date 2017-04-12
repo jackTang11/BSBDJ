@@ -16,6 +16,7 @@
 #define inphone6 (TLYScreenH == 667)
 #define inphone5 (TLYScreenH == 568)
 #define inphone4 (TLYScreenH == 480)
+#define  TLYColor(r,g,b) [UIColor colorWithRed:(r)/256.0 green:(g)/256.0 blue:(b)/256.0 alpha:1]
 
 
 
