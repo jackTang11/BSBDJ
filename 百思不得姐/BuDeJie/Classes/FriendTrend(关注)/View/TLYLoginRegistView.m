@@ -8,6 +8,13 @@
 
 #import "TLYLoginRegistView.h"
 
+@interface TLYLoginRegistView()
+
+
+@property (weak, nonatomic) IBOutlet UIButton *loginReginBtn;
+
+@end
+
 @implementation TLYLoginRegistView
 
 +(instancetype)loginView{
@@ -26,5 +33,13 @@
 
 
 
+-(void)awakeFromNib{
+    [super awakeFromNib];
+    UIImage *image = self.loginReginBtn.currentBackgroundImage;
+    image = [image stretchableImageWithLeftCapWidth:image.size.width*0.5 topCapHeight:image.size.height*0.5];
+    [self.loginReginBtn setBackgroundImage:image forState:UIControlStateNormal];
+    
+
+}
 
 @end

@@ -10,21 +10,16 @@
 
 @interface TLYTabBar()
 @property (nonatomic,weak) UIButton *plusButton;
+@property (nonatomic,weak) UIControl *preButton;
 
 @end
 
 
 @implementation TLYTabBar
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
-}
-*/
-
-
+/**
+ 自定义一个中间按钮
+ */
 -(UIButton *)plusButton{
     if(_plusButton==nil){
         UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -40,6 +35,9 @@
 }
 
 
+/**
+ 动态修改按钮的位置
+ */
 -(void)layoutSubviews{
     [super layoutSubviews];
     
@@ -51,20 +49,37 @@
     CGFloat x= 0;
     int i = 0;
     
-    for (UIView *tabbarButton in self.subviews) {
+    for (UIControl *tabbarButton in self.subviews) {
         if([tabbarButton isKindOfClass:NSClassFromString(@"UITabBarButton")]){
             if(i==2){
                 i+=1;
             }
             x = i*btnW;
             tabbarButton.frame =CGRectMake(x, 0, btnW, btnH);
+            
+            
+            if(self.preButton == nil && i==0){//记录第一个按钮
+                self.preButton = tabbarButton;
+            }
+            
+            [tabbarButton addTarget:self action:@selector(tagClick:) forControlEvents:UIControlEventTouchUpInside];
             i++;
         }
     }
     
     //调整发布按钮的位置
     self.plusButton.center = CGPointMake(self.tly_width*0.5, self.tly_height *0.5);
+}
 
+
+/**
+ 多次点击tab切换事件
+ */
+-(void)tagClick:(UIControl *)tabbar{
+    if(self.preButton == tabbar){
+          [[NSNotificationCenter defaultCenter]postNotificationName:UITabClickNotification object:nil];
+    }
+    self.preButton = tabbar;
 }
 
 @end

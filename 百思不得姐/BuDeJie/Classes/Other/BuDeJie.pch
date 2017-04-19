@@ -8,6 +8,7 @@
 
 #import "UIView+Frame.h"
 #import "UIBarButtonItem+Item.h"
+#import "TLYConst.h"
 
 #define TLYFunc NSLog(@"%s",__func__)
 #define TLYScreenW [UIScreen mainScreen].bounds.size.width
@@ -17,6 +18,7 @@
 #define inphone5 (TLYScreenH == 568)
 #define inphone4 (TLYScreenH == 480)
 #define  TLYColor(r,g,b) [UIColor colorWithRed:(r)/256.0 green:(g)/256.0 blue:(b)/256.0 alpha:1]
+#define TLYRandomColor TLYColor(arc4random_uniform(255),arc4random_uniform(255), arc4random_uniform(255))
 
 
 

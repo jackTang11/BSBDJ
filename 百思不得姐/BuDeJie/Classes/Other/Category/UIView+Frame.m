@@ -21,6 +21,9 @@
 
 }
 
++(instancetype)tly_viewFromNib{
+    return [[NSBundle mainBundle]loadNibNamed:NSStringFromClass(self) owner:nil options:nil].firstObject;
+}
 
 -(void)setTly_width:(CGFloat)tly_width{
     CGRect  rect = self.frame;

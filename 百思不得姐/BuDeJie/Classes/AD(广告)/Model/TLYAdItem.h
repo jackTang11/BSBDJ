@@ -10,9 +10,9 @@
 
 @interface TLYAdItem : NSObject
 //跳转链接
-@property (nonatomic,strong) NSString *ori_curl;
+@property (nonatomic,copy) NSString *ori_curl;
 //广告地址
-@property (nonatomic,strong) NSString *w_picurl;
+@property (nonatomic,copy) NSString *w_picurl;
 
 @property (nonatomic,assign) CGFloat h;
 @property (nonatomic,assign) CGFloat w;

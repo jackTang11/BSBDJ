@@ -12,4 +12,5 @@
 
 +(instancetype)originalImagewithName:(NSString *)name;
 
+-(instancetype)cicrleImage;
 @end

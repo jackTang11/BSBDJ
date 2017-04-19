@@ -16,4 +16,6 @@
 @property CGFloat tly_y;
 @property CGFloat center_x;
 @property CGFloat center_y;
+
++(instancetype)tly_viewFromNib;
 @end

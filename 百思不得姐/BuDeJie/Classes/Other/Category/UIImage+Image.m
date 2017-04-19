@@ -14,4 +14,14 @@
     UIImage *image = [UIImage imageNamed:name];
     return  [image imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
 }
+
+-(instancetype)cicrleImage{
+    UIGraphicsBeginImageContextWithOptions(self.size, NO, 0);
+    UIBezierPath *path = [UIBezierPath bezierPathWithOvalInRect:CGRectMake(0, 0, self.size.width, self.size.height)];
+    [path addClip];
+    [self drawAtPoint:CGPointZero];
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return  image;
+}
 @end

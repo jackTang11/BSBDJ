@@ -49,6 +49,29 @@
 		BD4FEBA31E9DD9FC00BA6286 /* TLYLoginRegistView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4FEBA21E9DD9FC00BA6286 /* TLYLoginRegistView.m */; };
 		BD4FEBA51E9DDA0900BA6286 /* TLYLoginRegistView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD4FEBA41E9DDA0900BA6286 /* TLYLoginRegistView.xib */; };
 		BD4FEBA81E9E267100BA6286 /* TLYFastBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4FEBA71E9E267100BA6286 /* TLYFastBtn.m */; };
+		BD4FEBAB1E9F0BC000BA6286 /* TLYLoginTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4FEBAA1E9F0BC000BA6286 /* TLYLoginTextField.m */; };
+		BD4FEBAE1E9F235E00BA6286 /* UITextField+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4FEBAD1E9F235E00BA6286 /* UITextField+Placeholder.m */; };
+		BD4FEBB01E9F5D9F00BA6286 /* TLYMeTableController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD4FEBAF1E9F5D9F00BA6286 /* TLYMeTableController.storyboard */; };
+		BD4FEBB41E9F61D900BA6286 /* TLYSquareCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4FEBB21E9F61D900BA6286 /* TLYSquareCell.m */; };
+		BD4FEBB51E9F61D900BA6286 /* TLYSquareCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD4FEBB31E9F61D900BA6286 /* TLYSquareCell.xib */; };
+		BD4FEBB81E9F665900BA6286 /* TLYSquareItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4FEBB71E9F665900BA6286 /* TLYSquareItem.m */; };
+		BD4FEBBB1EA0CF6200BA6286 /* TLYAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4FEBBA1EA0CF6200BA6286 /* TLYAllViewController.m */; };
+		BD4FEBBE1EA0CF7A00BA6286 /* TLYVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4FEBBD1EA0CF7A00BA6286 /* TLYVideoViewController.m */; };
+		BD4FEBC11EA0CF8E00BA6286 /* TLYPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4FEBC01EA0CF8E00BA6286 /* TLYPictureViewController.m */; };
+		BD4FEBC41EA0CF9E00BA6286 /* TLYWorldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4FEBC31EA0CF9E00BA6286 /* TLYWorldViewController.m */; };
+		BD4FEBC71EA0D03500BA6286 /* TLYVoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4FEBC61EA0D03500BA6286 /* TLYVoiceViewController.m */; };
+		BD4FEBCA1EA0D2F100BA6286 /* TLYConst.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4FEBC91EA0D2F100BA6286 /* TLYConst.m */; };
+		BD4FEBCE1EA472F100BA6286 /* TLYTopicViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4FEBCC1EA472F100BA6286 /* TLYTopicViewCell.m */; };
+		BD4FEBCF1EA472F100BA6286 /* TLYTopicViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD4FEBCD1EA472F100BA6286 /* TLYTopicViewCell.xib */; };
+		BD4FEBD21EA4741D00BA6286 /* TLYTopicItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4FEBD11EA4741D00BA6286 /* TLYTopicItem.m */; };
+		BD4FEBD51EA5AC4100BA6286 /* TLYTopicPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4FEBD41EA5AC4100BA6286 /* TLYTopicPictureView.m */; };
+		BD4FEBD71EA5AC5700BA6286 /* TLYTopicPictureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD4FEBD61EA5AC5700BA6286 /* TLYTopicPictureView.xib */; };
+		BD4FEBDA1EA5AC7600BA6286 /* TLYTopicVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4FEBD91EA5AC7600BA6286 /* TLYTopicVideoView.m */; };
+		BD4FEBDC1EA5AC8600BA6286 /* TLYTopicVideoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD4FEBDB1EA5AC8600BA6286 /* TLYTopicVideoView.xib */; };
+		BD4FEBDF1EA5AC9B00BA6286 /* TLYTopicVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4FEBDE1EA5AC9B00BA6286 /* TLYTopicVoiceView.m */; };
+		BD4FEBE11EA5ACA800BA6286 /* TLYTopicVoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD4FEBE01EA5ACA800BA6286 /* TLYTopicVoiceView.xib */; };
+		BD4FEBE51EA7157F00BA6286 /* TLYSeeBigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4FEBE31EA7157F00BA6286 /* TLYSeeBigViewController.m */; };
+		BD4FEBE61EA7157F00BA6286 /* TLYSeeBigViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD4FEBE41EA7157F00BA6286 /* TLYSeeBigViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -120,6 +143,45 @@
 		BD4FEBA41E9DDA0900BA6286 /* TLYLoginRegistView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TLYLoginRegistView.xib; sourceTree = "<group>"; };
 		BD4FEBA61E9E267100BA6286 /* TLYFastBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLYFastBtn.h; sourceTree = "<group>"; };
 		BD4FEBA71E9E267100BA6286 /* TLYFastBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLYFastBtn.m; sourceTree = "<group>"; };
+		BD4FEBA91E9F0BC000BA6286 /* TLYLoginTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLYLoginTextField.h; sourceTree = "<group>"; };
+		BD4FEBAA1E9F0BC000BA6286 /* TLYLoginTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLYLoginTextField.m; sourceTree = "<group>"; };
+		BD4FEBAC1E9F235E00BA6286 /* UITextField+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Placeholder.h"; sourceTree = "<group>"; };
+		BD4FEBAD1E9F235E00BA6286 /* UITextField+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Placeholder.m"; sourceTree = "<group>"; };
+		BD4FEBAF1E9F5D9F00BA6286 /* TLYMeTableController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TLYMeTableController.storyboard; sourceTree = "<group>"; };
+		BD4FEBB11E9F61D900BA6286 /* TLYSquareCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLYSquareCell.h; sourceTree = "<group>"; };
+		BD4FEBB21E9F61D900BA6286 /* TLYSquareCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLYSquareCell.m; sourceTree = "<group>"; };
+		BD4FEBB31E9F61D900BA6286 /* TLYSquareCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TLYSquareCell.xib; sourceTree = "<group>"; };
+		BD4FEBB61E9F665900BA6286 /* TLYSquareItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLYSquareItem.h; sourceTree = "<group>"; };
+		BD4FEBB71E9F665900BA6286 /* TLYSquareItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLYSquareItem.m; sourceTree = "<group>"; };
+		BD4FEBB91EA0CF6200BA6286 /* TLYAllViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLYAllViewController.h; sourceTree = "<group>"; };
+		BD4FEBBA1EA0CF6200BA6286 /* TLYAllViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLYAllViewController.m; sourceTree = "<group>"; };
+		BD4FEBBC1EA0CF7A00BA6286 /* TLYVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLYVideoViewController.h; sourceTree = "<group>"; };
+		BD4FEBBD1EA0CF7A00BA6286 /* TLYVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLYVideoViewController.m; sourceTree = "<group>"; };
+		BD4FEBBF1EA0CF8E00BA6286 /* TLYPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLYPictureViewController.h; sourceTree = "<group>"; };
+		BD4FEBC01EA0CF8E00BA6286 /* TLYPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLYPictureViewController.m; sourceTree = "<group>"; };
+		BD4FEBC21EA0CF9E00BA6286 /* TLYWorldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLYWorldViewController.h; sourceTree = "<group>"; };
+		BD4FEBC31EA0CF9E00BA6286 /* TLYWorldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLYWorldViewController.m; sourceTree = "<group>"; };
+		BD4FEBC51EA0D03500BA6286 /* TLYVoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLYVoiceViewController.h; sourceTree = "<group>"; };
+		BD4FEBC61EA0D03500BA6286 /* TLYVoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLYVoiceViewController.m; sourceTree = "<group>"; };
+		BD4FEBC81EA0D2F100BA6286 /* TLYConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLYConst.h; sourceTree = "<group>"; };
+		BD4FEBC91EA0D2F100BA6286 /* TLYConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLYConst.m; sourceTree = "<group>"; };
+		BD4FEBCB1EA472F100BA6286 /* TLYTopicViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLYTopicViewCell.h; sourceTree = "<group>"; };
+		BD4FEBCC1EA472F100BA6286 /* TLYTopicViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLYTopicViewCell.m; sourceTree = "<group>"; };
+		BD4FEBCD1EA472F100BA6286 /* TLYTopicViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TLYTopicViewCell.xib; sourceTree = "<group>"; };
+		BD4FEBD01EA4741D00BA6286 /* TLYTopicItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLYTopicItem.h; sourceTree = "<group>"; };
+		BD4FEBD11EA4741D00BA6286 /* TLYTopicItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLYTopicItem.m; sourceTree = "<group>"; };
+		BD4FEBD31EA5AC4100BA6286 /* TLYTopicPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLYTopicPictureView.h; sourceTree = "<group>"; };
+		BD4FEBD41EA5AC4100BA6286 /* TLYTopicPictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLYTopicPictureView.m; sourceTree = "<group>"; };
+		BD4FEBD61EA5AC5700BA6286 /* TLYTopicPictureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TLYTopicPictureView.xib; sourceTree = "<group>"; };
+		BD4FEBD81EA5AC7600BA6286 /* TLYTopicVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLYTopicVideoView.h; sourceTree = "<group>"; };
+		BD4FEBD91EA5AC7600BA6286 /* TLYTopicVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLYTopicVideoView.m; sourceTree = "<group>"; };
+		BD4FEBDB1EA5AC8600BA6286 /* TLYTopicVideoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TLYTopicVideoView.xib; sourceTree = "<group>"; };
+		BD4FEBDD1EA5AC9B00BA6286 /* TLYTopicVoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLYTopicVoiceView.h; sourceTree = "<group>"; };
+		BD4FEBDE1EA5AC9B00BA6286 /* TLYTopicVoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLYTopicVoiceView.m; sourceTree = "<group>"; };
+		BD4FEBE01EA5ACA800BA6286 /* TLYTopicVoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TLYTopicVoiceView.xib; sourceTree = "<group>"; };
+		BD4FEBE21EA7157F00BA6286 /* TLYSeeBigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLYSeeBigViewController.h; sourceTree = "<group>"; };
+		BD4FEBE31EA7157F00BA6286 /* TLYSeeBigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLYSeeBigViewController.m; sourceTree = "<group>"; };
+		BD4FEBE41EA7157F00BA6286 /* TLYSeeBigViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TLYSeeBigViewController.xib; sourceTree = "<group>"; };
 		EBC14DF9A7B48C1D5F4423BD /* Pods_BuDeJie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuDeJie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -261,6 +323,19 @@
 			children = (
 				BD20B2921E934F70004D80BA /* TLYEssenceController.h */,
 				BD20B2931E934F70004D80BA /* TLYEssenceController.m */,
+				BD4FEBB91EA0CF6200BA6286 /* TLYAllViewController.h */,
+				BD4FEBBA1EA0CF6200BA6286 /* TLYAllViewController.m */,
+				BD4FEBBC1EA0CF7A00BA6286 /* TLYVideoViewController.h */,
+				BD4FEBBD1EA0CF7A00BA6286 /* TLYVideoViewController.m */,
+				BD4FEBC51EA0D03500BA6286 /* TLYVoiceViewController.h */,
+				BD4FEBC61EA0D03500BA6286 /* TLYVoiceViewController.m */,
+				BD4FEBBF1EA0CF8E00BA6286 /* TLYPictureViewController.h */,
+				BD4FEBC01EA0CF8E00BA6286 /* TLYPictureViewController.m */,
+				BD4FEBC21EA0CF9E00BA6286 /* TLYWorldViewController.h */,
+				BD4FEBC31EA0CF9E00BA6286 /* TLYWorldViewController.m */,
+				BD4FEBE21EA7157F00BA6286 /* TLYSeeBigViewController.h */,
+				BD4FEBE31EA7157F00BA6286 /* TLYSeeBigViewController.m */,
+				BD4FEBE41EA7157F00BA6286 /* TLYSeeBigViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -268,6 +343,8 @@
 		BD20B2711E934C07004D80BA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BD4FEBD01EA4741D00BA6286 /* TLYTopicItem.h */,
+				BD4FEBD11EA4741D00BA6286 /* TLYTopicItem.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -275,6 +352,18 @@
 		BD20B2721E934C07004D80BA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BD4FEBCB1EA472F100BA6286 /* TLYTopicViewCell.h */,
+				BD4FEBCC1EA472F100BA6286 /* TLYTopicViewCell.m */,
+				BD4FEBCD1EA472F100BA6286 /* TLYTopicViewCell.xib */,
+				BD4FEBD31EA5AC4100BA6286 /* TLYTopicPictureView.h */,
+				BD4FEBD41EA5AC4100BA6286 /* TLYTopicPictureView.m */,
+				BD4FEBD61EA5AC5700BA6286 /* TLYTopicPictureView.xib */,
+				BD4FEBD81EA5AC7600BA6286 /* TLYTopicVideoView.h */,
+				BD4FEBD91EA5AC7600BA6286 /* TLYTopicVideoView.m */,
+				BD4FEBDB1EA5AC8600BA6286 /* TLYTopicVideoView.xib */,
+				BD4FEBDD1EA5AC9B00BA6286 /* TLYTopicVoiceView.h */,
+				BD4FEBDE1EA5AC9B00BA6286 /* TLYTopicVoiceView.m */,
+				BD4FEBE01EA5ACA800BA6286 /* TLYTopicVoiceView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -320,6 +409,8 @@
 				BD4FEBA41E9DDA0900BA6286 /* TLYLoginRegistView.xib */,
 				BD4FEBA61E9E267100BA6286 /* TLYFastBtn.h */,
 				BD4FEBA71E9E267100BA6286 /* TLYFastBtn.m */,
+				BD4FEBA91E9F0BC000BA6286 /* TLYLoginTextField.h */,
+				BD4FEBAA1E9F0BC000BA6286 /* TLYLoginTextField.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -376,6 +467,7 @@
 			children = (
 				BD20B29E1E935025004D80BA /* TLYMeTableController.h */,
 				BD20B29F1E935025004D80BA /* TLYMeTableController.m */,
+				BD4FEBAF1E9F5D9F00BA6286 /* TLYMeTableController.storyboard */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -383,6 +475,8 @@
 		BD20B27D1E934C07004D80BA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BD4FEBB61E9F665900BA6286 /* TLYSquareItem.h */,
+				BD4FEBB71E9F665900BA6286 /* TLYSquareItem.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -390,6 +484,9 @@
 		BD20B27E1E934C07004D80BA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BD4FEBB11E9F61D900BA6286 /* TLYSquareCell.h */,
+				BD4FEBB21E9F61D900BA6286 /* TLYSquareCell.m */,
+				BD4FEBB31E9F61D900BA6286 /* TLYSquareCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -441,6 +538,8 @@
 				BD20B2841E934C07004D80BA /* AppDelegate.h */,
 				BD20B2851E934C07004D80BA /* AppDelegate.m */,
 				BD4FEB151E97488E00BA6286 /* BuDeJie.pch */,
+				BD4FEBC81EA0D2F100BA6286 /* TLYConst.h */,
+				BD4FEBC91EA0D2F100BA6286 /* TLYConst.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -520,6 +619,8 @@
 				BD4FEB131E97429500BA6286 /* UIView+Frame.m */,
 				BD4FEB191E9B259000BA6286 /* UIBarButtonItem+Item.h */,
 				BD4FEB1A1E9B259000BA6286 /* UIBarButtonItem+Item.m */,
+				BD4FEBAC1E9F235E00BA6286 /* UITextField+Placeholder.h */,
+				BD4FEBAD1E9F235E00BA6286 /* UITextField+Placeholder.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -601,11 +702,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD4FEBA01E9DD97B00BA6286 /* TLYFastLoginView.xib in Resources */,
+				BD4FEBE11EA5ACA800BA6286 /* TLYTopicVoiceView.xib in Resources */,
 				BD4FEBA51E9DDA0900BA6286 /* TLYLoginRegistView.xib in Resources */,
 				BD4FEB9B1E9DCC5C00BA6286 /* TLYLoginRegisterViewController.xib in Resources */,
+				BD4FEBB01E9F5D9F00BA6286 /* TLYMeTableController.storyboard in Resources */,
+				BD4FEBDC1EA5AC8600BA6286 /* TLYTopicVideoView.xib in Resources */,
+				BD4FEBCF1EA472F100BA6286 /* TLYTopicViewCell.xib in Resources */,
 				BD4FEB321E9B8EA800BA6286 /* LaunchImage-700-568h@2x.png in Resources */,
 				BD4FEB471E9DC8A600BA6286 /* TLYFriendTrendController.xib in Resources */,
+				BD4FEBB51E9F61D900BA6286 /* TLYSquareCell.xib in Resources */,
 				BD4FEB371E9B8EA800BA6286 /* LaunchImage@2x.png in Resources */,
+				BD4FEBE61EA7157F00BA6286 /* TLYSeeBigViewController.xib in Resources */,
 				BD20B2611E93485B004D80BA /* LaunchScreen.storyboard in Resources */,
 				BD4FEB281E9B8E4600BA6286 /* TLYAdViewController.xib in Resources */,
 				BD20B2691E9348AA004D80BA /* Images.xcassets in Resources */,
@@ -616,6 +723,7 @@
 				BD4FEB311E9B8EA800BA6286 /* LaunchImage-568h@2x.png in Resources */,
 				BD4FEB351E9B8EA800BA6286 /* LaunchImage-800-Portrait-736h@3x.png in Resources */,
 				BD20B2591E93485B004D80BA /* Main.storyboard in Resources */,
+				BD4FEBD71EA5AC5700BA6286 /* TLYTopicPictureView.xib in Resources */,
 				BD4FEB361E9B8EA800BA6286 /* LaunchImage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -676,29 +784,45 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD4FEB141E97429500BA6286 /* UIView+Frame.m in Sources */,
+				BD4FEBCA1EA0D2F100BA6286 /* TLYConst.m in Sources */,
 				BD20B2A01E935025004D80BA /* TLYMeTableController.m in Sources */,
 				BD4FEB111E973B4300BA6286 /* TLYTabBar.m in Sources */,
+				BD4FEBDA1EA5AC7600BA6286 /* TLYTopicVideoView.m in Sources */,
 				BD4FEB3A1E9C6B1A00BA6286 /* TLYAdItem.m in Sources */,
 				BD4FEB9E1E9DD94A00BA6286 /* TLYFastLoginView.m in Sources */,
+				BD4FEBBB1EA0CF6200BA6286 /* TLYAllViewController.m in Sources */,
+				BD4FEBCE1EA472F100BA6286 /* TLYTopicViewCell.m in Sources */,
+				BD4FEBAE1E9F235E00BA6286 /* UITextField+Placeholder.m in Sources */,
 				BD4FEB9A1E9DCC5C00BA6286 /* TLYLoginRegisterViewController.m in Sources */,
 				BD20B2A41E93530B004D80BA /* UIImage+Image.m in Sources */,
+				BD4FEBB41E9F61D900BA6286 /* TLYSquareCell.m in Sources */,
 				BD20B25C1E93485B004D80BA /* _____.xcdatamodeld in Sources */,
 				BD4FEB1E1E9B380800BA6286 /* TLYSettingTableController.m in Sources */,
+				BD4FEBC71EA0D03500BA6286 /* TLYVoiceViewController.m in Sources */,
 				BD4FEB1B1E9B259000BA6286 /* UIBarButtonItem+Item.m in Sources */,
 				BD4FEBA81E9E267100BA6286 /* TLYFastBtn.m in Sources */,
+				BD4FEBC11EA0CF8E00BA6286 /* TLYPictureViewController.m in Sources */,
+				BD4FEBE51EA7157F00BA6286 /* TLYSeeBigViewController.m in Sources */,
 				BD4FEB441E9CDB5C00BA6286 /* TLYSubTagViewCell.m in Sources */,
+				BD4FEBD51EA5AC4100BA6286 /* TLYTopicPictureView.m in Sources */,
 				BD4FEB401E9CD9E200BA6286 /* TLYSubTagItem.m in Sources */,
 				BD20B2971E934FA0004D80BA /* TLYNewViewController.m in Sources */,
 				BD20B2911E934E67004D80BA /* TLYTabBarController.m in Sources */,
+				BD4FEBC41EA0CF9E00BA6286 /* TLYWorldViewController.m in Sources */,
 				BD4FEB181E9B21BB00BA6286 /* TLYNavigationController.m in Sources */,
 				BD20B2501E93485B004D80BA /* main.m in Sources */,
 				BD4FEBA31E9DD9FC00BA6286 /* TLYLoginRegistView.m in Sources */,
 				BD20B2941E934F70004D80BA /* TLYEssenceController.m in Sources */,
+				BD4FEBBE1EA0CF7A00BA6286 /* TLYVideoViewController.m in Sources */,
+				BD4FEBD21EA4741D00BA6286 /* TLYTopicItem.m in Sources */,
+				BD4FEBAB1E9F0BC000BA6286 /* TLYLoginTextField.m in Sources */,
 				BD20B28E1E934C07004D80BA /* AppDelegate.m in Sources */,
 				BD4FEB3D1E9CD7C900BA6286 /* TLYSubTagViewController.m in Sources */,
 				BD4FEB261E9B8E3600BA6286 /* TLYAdViewController.m in Sources */,
 				BD20B29A1E934FBE004D80BA /* TLYPublishController.m in Sources */,
+				BD4FEBDF1EA5AC9B00BA6286 /* TLYTopicVoiceView.m in Sources */,
 				BD20B29D1E934FE1004D80BA /* TLYFriendTrendController.m in Sources */,
+				BD4FEBB81E9F665900BA6286 /* TLYSquareItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

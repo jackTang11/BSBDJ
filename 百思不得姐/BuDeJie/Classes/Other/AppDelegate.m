@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 #import "TLYTabBarController.h"
 #import "TLYAdViewController.h"
+#import "TLYTabBarController.h"
+#import <AFNetworking/AFNetworking.h>
 
 @interface AppDelegate ()
 
@@ -23,13 +25,15 @@
    
     
     self.window = [[UIWindow alloc]initWithFrame: [UIScreen mainScreen].bounds];
-//    TLYTabBarController *tabBarCon = [[TLYTabBarController alloc]init];
+    TLYTabBarController *tabBarCon = [[TLYTabBarController alloc]init];
     
     
-    TLYAdViewController *ad = [[TLYAdViewController alloc]init];
+//    TLYAdViewController *ad = [[TLYAdViewController alloc]init];
     
     
-    self.window.rootViewController = ad;
+    [[AFNetworkReachabilityManager manager] startMonitoring];
+    
+    self.window.rootViewController = tabBarCon;
     
     [self.window makeKeyAndVisible];
     
